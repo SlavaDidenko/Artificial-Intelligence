@@ -15,6 +15,7 @@ body {
   height: 100%;
   font-family: $font-family , sans-serif;
   -webkit-text-size-adjust: 100%;
+  background: #020A18;
 }
 .site-container{
   min-height: 100vh;
@@ -26,10 +27,19 @@ main{
 }
 img {
   height: auto;
-  max-width: 100%;
+
   object-fit: cover;
 }
-
+p{
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
@@ -107,4 +117,33 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+
+
+
+//////////////////////////////////
+.btn{
+  @extend %openS-sb;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 15px 30px;
+  background: #3A68B8;
+  border-radius: 5px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    margin-right: 15px;
+  }
+
+  &__name {
+ @extend %openS-sb;
+  font-size: 22px;
+  line-height: 31px;
+  color: #3A68B8;
+  flex-wrap: nowrap;
+  }
 }

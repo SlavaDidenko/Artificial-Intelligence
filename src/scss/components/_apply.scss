@@ -1,0 +1,42 @@
+.apply {
+  padding: 130px 0 170px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__img {
+    margin-left: -130px;
+  }
+
+  &__content {
+    max-width: 485px;
+  }
+
+  &__title {
+  @extend %openS-b;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  }
+
+  &__text {
+    @extend %openS-sb;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+  }
+}
+.container {
+}
+.image {
+}
+.btn {
+}

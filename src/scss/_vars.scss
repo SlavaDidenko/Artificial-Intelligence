@@ -2,9 +2,30 @@
 // colors
   // base
   $font-family: "Open Sans";
-  $content-width: 1168px;
+  $content-width: 1146px;
   $container-offset:30px;
   $container-width: calc( #{$content-width} + #{$container-offset} * 2);
 
   // colors
   $light-color: #fff;
+
+  %openS-sb {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 600;
+  }
+  %openS-b {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 700;
+  }
+  %bitter-black {
+    font-family: 'Bitter' , serif;
+    font-weight: 900;
+  }
+  %bitter-sb {
+    font-family: 'Bitter' , serif;
+    font-weight: 600;
+  }
+  %bitter-b {
+    font-family: 'Bitter' , serif;
+    font-weight: 700;
+  }
